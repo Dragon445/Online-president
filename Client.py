@@ -12,7 +12,7 @@ if mode == 2:
     code = "startRoom"
     size = input("how many players?: ")
     
-    s.connect(("82.6.101.64",5555))
+    s.connect(("------------------",5555))
     s.send(str.encode(code + ":" + name + ":" + size))
 global myHand,lastCardPlayed,roundSize,cardplaynumber,highestset
 lasrtCardPlayed = 0
