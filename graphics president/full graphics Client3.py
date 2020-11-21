@@ -132,7 +132,7 @@ def setnamescreen(win):
                 if event.key == pygame.K_BACKSPACE:
                     name = name[:-2]
                 if event.key == 13:
-                    name = name.replace(" ","")
+                    name = name.replace(" ","",1)
                     return name
                 #if event.key == pygame.K_ENTER:
                   #  return code
